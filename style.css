@@ -1,0 +1,49 @@
+body{
+   margin:0;
+}
+.win{
+   position:absolute;
+   padding:5vw;
+   width:90vw;
+   top:30vh;
+   background-color:rgba(201, 201, 201, 0.877);
+   text-align: center;
+   color:red;
+   text-shadow :3px 1px 9px rgba(70, 70, 70, 0.452);
+}
+.hidden{
+   display: none;
+}
+section{
+   width:fit-content;
+   margin:0 auto;
+}
+#rows, #cols{
+   outline: none;
+   width: 55px;
+   font-size: 1.5rem;
+   margin:10px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+}
+label{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+#select-container{
+   display: flex;
+   justify-content: center;
+}
+#reset{
+   outline: none;
+   width:100%;
+   border-radius: 5px;
+   border: none;
+   font-size: 1rem;
+}
+canvas{
+   /* background by SVGBackgrounds.com */
+   background:url(Confetti.svg)!important;
+}
